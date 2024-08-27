@@ -1,0 +1,24 @@
+/* Mobile decice responsive */
+@media screen and (max-width: 576px){
+    header nav {
+        padding: 24px 20px;
+    }
+    header nav .nav-logo a{
+        gap: 8px;
+    }
+    header nav .nav-logo a img{
+        width: 29px;
+    }
+    header nav .nav-logo a p{
+        font-size: 21px;
+    }
+    nav .nav-link-container{
+        display: none;
+    }
+     header nav .nav-icon{
+        display: block;
+    }
+     header nav .nav-icon a{
+        font-size: 24px;
+    }
+}

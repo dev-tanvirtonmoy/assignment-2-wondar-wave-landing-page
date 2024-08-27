@@ -1,0 +1,75 @@
+/* "Mulish" font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Common styles for everything */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+body,html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+}
+ul,ol,li{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: block;
+
+}
+
+/* Some shared styles for everything */
+.container{
+    max-width: 1170px;
+    margin-inline: auto;
+}
+
+/* Navbar styles start from here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0;
+}
+nav .nav-logo a{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+nav .nav-logo a img{
+    width: 40px;
+}
+nav .nav-logo a p{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav .nav-link-container ul{
+    display: flex; 
+    gap: 44px;
+}
+nav .nav-link-container li a {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+nav .nav-link-container li .active{
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+nav .nav-icon{
+    display: none;
+}
+/* Navbar styles end here */
