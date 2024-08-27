@@ -36,6 +36,7 @@ a,a:hover{
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
+    text-transform: capitalize;
 }
 p{
     color: rgba(19, 19, 24, 0.70);
@@ -54,6 +55,11 @@ p{
     cursor: pointer;
     border: none;
     outline: none;
+}
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 /* Navbar styles start from here */
 nav{
@@ -234,3 +240,40 @@ nav .nav-icon{
     border-radius: 16px;
 }
 /* Destination section styles end here */
+
+/* Why choose us section styles start from here */
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-content: center;
+}
+.top {
+    display: flex;
+    gap: 24px;
+}
+
+.card{
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-container .top .card:nth-child(2){
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card img{
+    width: 64px;
+}
+.card h4 {
+    margin: 32px 0 16px;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+.bottom > .card {
+    width: 50%;
+}
+/* Why choose us section styles end here */

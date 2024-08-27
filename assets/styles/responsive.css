@@ -85,7 +85,7 @@
     }
     main .destination .item-container{
         grid-template-columns: 1fr;
-        /* grid-template-rows: 176px; */
+        gap: 16px;
     }
     main .destination .item-container img{
         height: 176px;
@@ -112,4 +112,19 @@
         grid-column: 1/ span 1;
     }
     /* Destination section responsive end here */
+
+    /* Why choose us section responsive start from here  */
+    main .why{
+        margin: 0 16px;
+    }
+    main .card-container .top{
+        flex-direction: column;
+    }
+    main .card-container, main .top{
+        gap: 16px;
+    }
+    main .bottom > .card{
+        width: 100%;
+    }
+    /* Why choose us section responsive end here  */
 }
