@@ -71,4 +71,45 @@
         font-size: 0.875rem;
     }
     /* About section responsive end here */
+
+    /* Destination section responsive start from here */
+    main .destination{
+        margin: 24px 16px;
+    }
+    main .section-heading{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    main .section-heading h3{
+        margin-bottom: 16px;
+    }
+    main .destination .item-container{
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 176px; */
+    }
+    main .destination .item-container img{
+        height: 176px;
+    }
+    main .destination .item-container .item-1{
+        grid-column: 1/ span 1;
+    }
+    main .destination .item-container .item-2{
+        grid-column: 1/ span 1;
+    }
+    main .destination .item-container .item-3{
+        grid-column: 1/ span 1;
+    }
+    main .destination .item-container .item-4{
+        grid-column: 1/ span 1;
+    }
+    main .destination .item-container .item-5{
+        grid-column: 1/ span 1;
+    }
+    main .destination .item-container .item-6{
+        grid-column: 1/ span 1;
+    }
+    main .destination .item-container .item-7{
+        grid-column: 1/ span 1;
+    }
+    /* Destination section responsive end here */
 }
