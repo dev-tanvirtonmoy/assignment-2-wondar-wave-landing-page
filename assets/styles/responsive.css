@@ -1,5 +1,6 @@
 /* Mobile decice responsive */
 @media screen and (max-width: 576px){
+    /* Navbar responsive start from here */
     header nav {
         padding: 24px 20px;
     }
@@ -21,4 +22,28 @@
      header nav .nav-icon a{
         font-size: 24px;
     }
+    /* Navbar responsive end here */
+
+    /* Banner section responsive start from here */
+    main .banner{
+        margin: 0 16px;
+        padding: 0 16px;
+    }
+    main .banner .banner-title{
+        font-size: 1.375rem;
+    }
+    main .banner p{
+        width: 100%;
+        margin: 8px auto 32px;
+        font-size: 0.875rem;
+    }
+    main .banner .banner-input-container{
+        width: 100%;
+    }
+    main .banner .banner-input-container form{
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+    /* Banner section responsive end here */
 }

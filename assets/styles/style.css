@@ -73,3 +73,68 @@ nav .nav-icon{
     display: none;
 }
 /* Navbar styles end here */
+
+/* Banner section styles start from here */
+.banner{
+    height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner .banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner p{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 26px;
+    width: 676px;
+    margin: 24px auto 48px;
+}
+.banner .banner-input-container{
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+}
+.banner .banner-input-container form{
+    display: flex;
+    gap: 24px;
+}
+.banner .banner-input-container form input{
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.banner .banner-input-container form input::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.banner .banner-input-container form button{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #FF5400;
+    padding: 16px 32px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* Banner section styles end here */
