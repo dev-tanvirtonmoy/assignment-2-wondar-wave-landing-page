@@ -54,6 +54,7 @@ p{
     cursor: pointer;
     border: none;
     outline: none;
+    text-transform: capitalize;
 }
 .card-title{
     color: #131318;
@@ -343,3 +344,31 @@ nav .nav-icon{
     margin: 0 0 24px;
 }
 /* Deals and Discounts section styles end here */
+
+/* Video section HTML start from here */
+.video{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.video-text, .video-container{
+    width: 50%;
+}
+.video-text p{
+    margin: 24px 0;
+}
+.video-text ul{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.video-text li{
+    list-style: disc;
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+}
+/* Video section HTML end here */

@@ -163,4 +163,20 @@
         background-color: #FF5400;
     }
     /* Deals and Discounts section responsive end here */
+
+    /* Video section responsive start from here */
+    main .video{
+        flex-direction: column;
+        margin: 0 16px;
+    }
+    main .video-text, main .video-container{
+        width: 100%;
+    }
+    main .video-text p{
+        margin: 16px 0;
+    }
+    main .video-text ul{
+        margin-bottom: 24px;
+    }
+    /* Video section responsive end here */
 }
