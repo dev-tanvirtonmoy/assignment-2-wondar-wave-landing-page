@@ -1,5 +1,12 @@
 /* Mobile decice responsive */
 @media screen and (max-width: 576px){
+    /* Shared styles */
+    main p{
+        font-size: 0.875rem;
+    }
+    main .section-title {
+        font-size: 1.25rem;
+    }
     /* Navbar responsive start from here */
     header nav {
         padding: 24px 20px;
@@ -46,4 +53,22 @@
         text-align: center;
     }
     /* Banner section responsive end here */
+
+    /* About section responsive start from here */
+    main .about {
+        margin: 24px 16px;
+        flex-direction: column;
+        gap: 24px;
+    }
+    main .about-content{
+        width: 100%;
+        gap: 16px;
+    }
+    main .about-content ul{
+        gap: 12px;
+    }
+    main .about-content ul li{
+        font-size: 0.875rem;
+    }
+    /* About section responsive end here */
 }

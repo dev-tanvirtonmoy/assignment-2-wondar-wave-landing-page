@@ -18,7 +18,7 @@ img{
     object-fit: cover;
     display: flex;
 }
-ul,ol,li{
+ul,ol,li {
     list-style: none;
 }
 a,a:hover{
@@ -32,7 +32,29 @@ a,a:hover{
     max-width: 1170px;
     margin-inline: auto;
 }
-
+.section-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    padding: 14px 28px;
+    font-weight: 800;
+    width: 174px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
 /* Navbar styles start from here */
 nav{
     display: flex;
@@ -138,3 +160,31 @@ nav .nav-icon{
     cursor: pointer;
 }
 /* Banner section styles end here */
+
+/* About us section styles start from here */
+.about{
+    margin: 100px auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.about-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.about-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.about-content ul li{
+    list-style: disc;
+    margin-left: 20px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+/* About us section styles end here */
