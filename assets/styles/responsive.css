@@ -127,4 +127,40 @@
         width: 100%;
     }
     /* Why choose us section responsive end here  */
+
+    /* Deals and Discounts section responsive start from here */
+    main .deals{
+        margin: 24px 16px;
+    }
+    main .deals-con-main{
+        gap: 16px;
+    }
+    main .deals-card-container{
+        padding: 16px;
+        align-items: end;
+    }
+    main .deals-card{
+        width: 100%;
+        padding: 25px;
+    }
+    main .stats-container{
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    main .bottom-stats{
+        gap: 16px;
+    }
+
+    main .deals-card p{
+        margin: 8px 0 12px;
+    }
+    main .deals-card .card-price{
+        margin: 0 0 16px;
+    }
+    main .deals-card button{
+        padding: 8px 20px;
+        background-color: #FF5400;
+    }
+    /* Deals and Discounts section responsive end here */
 }
