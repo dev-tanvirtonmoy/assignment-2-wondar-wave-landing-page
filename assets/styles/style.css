@@ -60,6 +60,7 @@ p{
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
+    text-transform: capitalize;
 }
 /* Navbar styles start from here */
 nav{
@@ -372,3 +373,71 @@ nav .nav-icon{
     line-height: 150%;
 }
 /* Video section HTML end here */
+
+/* newsletter section styles start from here */
+.newsletter{
+    display: flex;
+    gap: 24px;
+    margin: 100px auto;
+}
+.newsletter-content{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    background: #FFF;
+}
+.newsletter-content p{
+    padding: 16px 0 24px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+}
+.newsletter-content form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px 0;
+}
+.newsletter-content form input{
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 20px;
+    outline: none;
+}
+.newsletter-content form input::placeholder{
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.newsletter-img{
+    position: relative;
+}
+.off-tag{
+    transform: rotate(-19.628deg);
+    display: inline-block;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 11%;
+    right: 1%;
+}
+.off-tag p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+.off-tag span{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+/* newsletter section styles end here */

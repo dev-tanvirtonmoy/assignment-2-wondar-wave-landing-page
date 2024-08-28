@@ -179,4 +179,24 @@
         margin-bottom: 24px;
     }
     /* Video section responsive end here */
+
+    /* Newsletter section responsive start from here */
+    main .newsletter{
+        flex-direction: column;
+        margin: 24px 16px;
+    }
+    main .newsletter-content{
+        padding: 24px 20px;
+    }
+    main .off-tag{
+        width: 214.023px;
+        height: 79.268px;
+    }
+    maib .off-tag p{
+        font-size: 14px;
+    }
+    main .off-tag span{
+        font-size: 20px;
+    }
+    /* Newsletter section responsive end here */
 }
