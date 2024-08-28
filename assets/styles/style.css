@@ -441,3 +441,46 @@ nav .nav-icon{
     font-weight: 800;
 }
 /* newsletter section styles end here */
+
+/* Footer section styles start from here */
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+footer .footer-logo a{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+footer .footer-logo a img{
+    width: 40px;
+}
+footer .footer-logo a p{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+footer span{
+    padding: 16px 0 32px;
+    width: 769px;
+}
+footer ul{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+footer li{
+    font-size: 24px;
+}
+.copyright {
+    padding-top: 50px;
+    border-top: 2px solid rgba(19, 19, 24, 0.10);
+    width: 769px;
+
+}
+/* Footer section styles end here */

@@ -199,4 +199,16 @@
         font-size: 20px;
     }
     /* Newsletter section responsive end here */
+
+    /* Footer section responsive start from here */
+    body footer {
+        padding: 32px 20px;
+    }
+    body footer span {
+        width: 100%;
+    }
+    body footer .copyright{
+        width: 100%;
+    }
+    /* Footer section responsive end here */
 }
